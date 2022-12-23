@@ -1,0 +1,32 @@
+body{
+	background:#FFF8F6;
+}
+
+.nav-wrapper,.page-footer{
+	background:#FF693E;
+}
+
+.test{
+	height:700px ;
+	width:100% ;
+	background: silver;
+	/*display: block;
+    margin-left: auto;
+    margin-right: auto;*/
+}
+
+@media screen and (min-width: 500px) {
+  body {
+    background-color: lightgreen;
+  }
+
+  .test{
+	/*width:70% ;*/
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    background-color: lavender;
+  }
+}
